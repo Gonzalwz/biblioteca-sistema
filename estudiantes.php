@@ -67,8 +67,13 @@ $estudiantes = $conexion->query("SELECT * FROM estudiantes ORDER BY id_estudiant
 
     <nav>
         <a href="index.php">Inicio</a>
-        <a href="estudiantes.php">Estudiantes</a>
-        <!-- Aquí se agregan los links a las demás tablas cuando estén listas -->
+        <a href="editoriales.php">Editoriales</a>
+        <a href="autores.php">Autores</a>
+        <a href="libros.php">Libros</a>
+        <a href="Estudiantes.php">Estudiantes</a>
+        <a href="prestamos.php">Prestamos</a>
+        <a href="detalle_prestamo.php">Detalle de los Prestamos</a>
+        <a href="devoluciones.php">Devoluciones</a>
     </nav>
 
     <h1>Estudiantes</h1>
