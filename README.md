@@ -1,0 +1,1 @@
+# Sistema de Biblioteca Proyecto de gestion de biblioteca desarrollado en PHP y MySQL. ## Funcionalidades - Gestion de autores, editoriales y libros - Registro de estudiantes - Control de prestamos y devoluciones
