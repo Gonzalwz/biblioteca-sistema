@@ -90,7 +90,7 @@ $detalle_prestamo = $conexion->query("
         <a href="devoluciones.php">Devoluciones</a>
     </nav>
 
-    <h1>Prestamos</h1>
+    <h1>Detalle de los Prestamos</h1>
 
     <?php if (isset($error)): ?>
         <p class="error"><?php echo $error; ?></p>
