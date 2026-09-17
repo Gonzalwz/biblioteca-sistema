@@ -1,12 +1,11 @@
 <?php
-// Datos de conexión al servidor MySQL (el mismo al que se conecta MySQL Workbench)
+
 $host = "127.0.0.1";
 $puerto = 3306;
 $usuario = "root";
 $contrasena = "TU_CONTRASENA_AQUI";
 $basedatos = "Proyecto_biblioteca";
 
-// Crear la conexión
 $conexion = new mysqli($host, $usuario, $contrasena, $basedatos, $puerto);
 
 if ($conexion->connect_error) {
