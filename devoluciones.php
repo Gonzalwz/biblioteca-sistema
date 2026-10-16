@@ -86,6 +86,11 @@ $devoluciones = $conexion->query("
     a.btn-editar { color: #2980b9; margin-right: 10px; }
     a.btn-eliminar { color: #c0392b; }
     .error { color: red; }
+
+    nav { display: flex; flex-wrap: wrap; gap: 6px 22px; padding-bottom: 14px; margin-bottom: 28px;
+      border-bottom: 1px solid #E4DFD5; font-family: "Trebuchet MS", system-ui, sans-serif; font-size: 13px; }
+nav a { color: #8A8477; text-decoration: none; }
+nav a:hover { color: #1F2A44; text-decoration: underline; }
 </style>
 </head>
 <body>
@@ -99,6 +104,7 @@ $devoluciones = $conexion->query("
         <a href="prestamos.php">Prestamos</a>
         <a href="detalle_prestamo.php">Detalle de los Prestamos</a>
         <a href="devoluciones.php">Devoluciones</a>
+        <a href="bitacora.php">Bitacoras</a>
     </nav>
 
     <h1>Devoluciones</h1>

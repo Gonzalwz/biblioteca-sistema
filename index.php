@@ -111,6 +111,7 @@
         <li><span class="indice">E</span> <a href="prestamos.php">Prestamos</a></li>
         <li><span class="indice">F</span> <a href="detalle_prestamo.php">Detalle de los Prestamos</a></li>
         <li><span class="indice">G</span> <a href="devoluciones.php">Devoluciones</a></li>
+        <li><span class="indice">H</span> <a href="bitacora.php">Bitacora</a></li>
     </ul>
 
     <footer>
